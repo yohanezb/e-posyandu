@@ -63,10 +63,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact.hbs">Contact Us</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.hbs">Login</a>
-              </li>
             </ul>
+              <a href="" class="nav-link user-login">Admin</a>
+              <img src="../assets/images/male.png" style="height: 60px; margin: auto 12px;"/>
             </div>
           </nav>
         </div>
@@ -84,6 +83,11 @@
           <!-- e-Posyandu Manage User Patient -->
           <div class="table-container row d-flex justify-content-center">
             <h4 class="text-center">Pasien</h4>
+            <a href="registration-patient-account.hbs">
+            <div class="schedule-button">
+                <button type="button" class="edit-button"> Add </button>
+              </div> 
+            </a>
             <table class="schedule-table" id="myTable">
               <thead>
                 <tr>
@@ -97,23 +101,23 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>Lisa</td>
-                  <td>11111111111</td>
-                  <td>Awewe</td>
-                  <td>Jakarta, 20 Januari 2025</td>
-                  <td>Jl. Sasa no 45</td>
+                  <td>Fanny</td>
+                  <td>100000000000</td>
+                  <td>Perempuan</td>
+                  <td>Bekasi, 1 Januari 1980</td>
+                  <td>Jl. Merdeka no 45 Juanda Bogor</td>
                   <td>
-                    <a href="manage-user-patient.hbs">
+                    <a href="manage-user-patient-1.hbs">
                     <img src="../assets/images/edit logo.png" style="max-height: 20px;"/>
                     </a>
                   </td>
                 </tr>
                 <tr>
-                  <td>Lisa</td>
-                  <td>11111111111</td>
-                  <td>Awewe</td>
-                  <td>Jakarta, 20 Januari 2025</td>
-                  <td>Jl. Sasa no 45</td>
+                  <td>Wira Irawan</td>
+                  <td>200000000000</td>
+                  <td>Laki-laki</td>
+                  <td>Jakarta, 30 Januari 1990</td>
+                  <td>Jl. Wayang no 3 Pondok Indah Jakarta</td>
                   <td>
                     <a href="manage-user-patient.hbs">
                     <img src="../assets/images/edit logo.png" style="max-height: 20px;"/>
@@ -128,11 +132,16 @@
           <!-- e-Posyandu Manage User Staff-->
           <div class="table-container row d-flex justify-content-center mt-5">
             <h4 class="text-center">Kader</h4>
+            <a href="registration-staff-account.hbs">
+            <div class="schedule-button">
+                <button type="button" class="edit-button"> Add </button>
+              </div> 
+            </a>
             <table class="schedule-table" id="myTable">
               <thead>
                 <tr>
                   <th>Nama Lengkap</th>
-                  <th>NIK</th>
+                  <th>NIP</th>
                   <th>Jenis Kelamin</th>
                   <th>Tempat, Tanggal Lahir</th>
                   <th>Alamat</th>
@@ -141,11 +150,23 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>Lisa</td>
-                  <td>11111111111</td>
-                  <td>Awewe</td>
-                  <td>Jakarta, 20 Januari 2025</td>
-                  <td>Jl. Sasa no 45</td>
+                  <td>Lisa Edelstein</td>
+                  <td>000000000001</td>
+                  <td>Perempuan</td>
+                  <td>Jakarta, 20 Januari 1980</td>
+                  <td>Jl. Sasa no 45 Kebon Jeruk Jakarta</td>
+                  <td>
+                    <a href="manage-user-staff-1.hbs">
+                    <img src="../assets/images/edit logo.png" style="max-height: 20px;"/>
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Maya Sarumpaet</td>
+                  <td>000000000002</td>
+                  <td>Perempuan</td>
+                  <td>Jakarta, 11 Maret 1998</td>
+                  <td>Jl.Mangga no 11 Ancol Jakarta Utara</td>
                   <td>
                     <a href="manage-user-staff.hbs">
                     <img src="../assets/images/edit logo.png" style="max-height: 20px;"/>
@@ -153,11 +174,23 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>Lisa</td>
-                  <td>11111111111</td>
-                  <td>Awewe</td>
-                  <td>Jakarta, 20 Januari 2025</td>
-                  <td>Jl. Sasa no 45</td>
+                  <td>Ilham Aditia</td>
+                  <td>000000000003</td>
+                  <td>Laki-laki</td>
+                  <td>Bogor,  Desember 1999</td>
+                  <td>Jl.Antik no 19 Margonda Depok</td>
+                  <td>
+                    <a href="manage-user-staff.hbs">
+                    <img src="../assets/images/edit logo.png" style="max-height: 20px;"/>
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Maya Sarumpaet</td>
+                  <td>000000000002</td>
+                  <td>Perempuan</td>
+                  <td>Tangerang, 22 Juli 1985</td>
+                  <td>Jl. Delima no 19 Tangerang Selatan</td>
                   <td>
                     <a href="manage-user-staff.hbs">
                     <img src="../assets/images/edit logo.png" style="max-height: 20px;"/>
@@ -175,15 +208,14 @@
     
     
 
-    <!-- Footer Section -->
+    <!-- footer section -->
     <footer class="footer_section">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-3 footer_col">
+          <div class="col-md-6 col-lg-3 mx-auto footer_col">
             <div class="footer_contact">
               <h4>Reach at..</h4>
               <div class="contact_link_box">
-
                 <a href="">
                   <i class="fa fa-phone" aria-hidden="true"></i>
                   <span> Call +62 81299998888 </span>
@@ -212,7 +244,7 @@
               </a>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 footer_col">
+          <div class="col-md-6 col-lg-3 mx-auto footer_col">
             <div class="footer_detail">
               <h4>About</h4>
               <p>
@@ -223,13 +255,14 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-2 footer_col">
+          <div class="col-md-6 col-lg-2 mx-auto footer_col">
             <div class="footer_link_box">
               <h4>Links</h4>
               <div class="footer_links">
                 <a class="" href="index.hbs"> Home </a>
                 <a class="" href="about.hbs"> About </a>
                 <a class="" href="info-board.hbs"> Info Board </a>
+
                 <a class="active" href="contact.hbs"> Contact Us </a>
               </div>
             </div>
@@ -238,7 +271,8 @@
         <div class="footer-info"></div>
       </div>
     </footer>
-    <!-- End Footer Section -->
+    <!-- footer section -->
+     
 
     <!-- JavaScript Files -->
     <script type="text/javascript" src="../assets/js/jquery-3.4.1.min.js"></script>

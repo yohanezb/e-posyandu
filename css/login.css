@@ -1,0 +1,13 @@
+.login-container .col-md-6 {
+    transition: transform 0.2s;
+}
+
+.login-container .col-md-6:hover {
+    transform: scale(1.02);
+}
+
+.carousel-indicators,
+.slider-pagination,
+.pagination-numbers {
+    display: none;
+}

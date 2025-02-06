@@ -77,31 +77,10 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact.hbs">Contact Us</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.hbs">Login</a>
-              </li>
             </ul>
+              <a href="" class="nav-link user-login">Evan</a>
+              <img src="../assets/images/male.png" style="height: 60px; margin: auto 12px;"/>
             </div>
-            <a
-            class="nav-link"
-            style="
-              font-size: medium;
-              font-weight: bold;
-              color: white;
-              text-align: center;
-              width: 120px;
-              background-color: rgb(87, 118, 128);
-              border: 1px solid white;
-              border-radius: 25px;
-              padding: 5px;
-              transition: all 0.3s ease-in-out;
-            "
-            href=""
-            onmouseover="this.style.backgroundColor='rgb(255, 255, 255)'; this.style.color='rgb(67, 105, 117)'; this.style.borderColor='rgb(67, 105, 117)';"
-            onmouseout="this.style.backgroundColor='rgb(67, 105, 117)'; this.style.color='white'; this.style.borderColor='white';"
-          >
-            Hi Evan
-          </a>
           </nav>
         </div>
       </header>
@@ -110,6 +89,11 @@
 
     <!-- contact section -->
     <section class="about_section layout_padding">
+        <a href="input-health-report.hbs">
+        <div class="schedule-button">
+            <button type="button" class="edit-button"style="margin-right: 10%;"> Add </button>
+          </div> 
+        </a>
       <table style="width: 80%; margin: 0 auto; border-collapse: collapse; ">
         <tr>
           <th style="width:11%">Tanggal Periksa</th>
@@ -117,34 +101,55 @@
           <th style="width:12%">Tinggi Badan (cm)</th>
           <th style="width:11%">Berat Badan (kg)</th>
           <th>Hasil Pemeriksaan</th>
+          <th style="width: 2%;"></th>
         </tr>
         <tr>
           <td>20 Februari 2025</td>
-          <td>Jansen Yuda</td>
-          <td>175 cm</td>
-          <td>80 kg</td>
-          <td>Normal</td>
+          <td>Mila</td>
+          <td>52.5 cm</td>
+          <td>7.1 kg</td>
+          <td>Sehat</td>
+          <td>
+            <a href="edit-health-report.hbs">
+            <img src="../assets/images/edit logo.png" style="max-height: 20px;"/>
+            </a>
+          </td>
         </tr>
         <tr>
           <td>27 Februari 2025</td>
-          <td>Jansen Yuda</td>
-          <td>175 cm</td>
-          <td>80 kg</td>
-          <td>Vaksin Covid-19 Astrazeneca</td>
+          <td>Mila</td>
+          <td>53 cm</td>
+          <td>7 kg</td>
+          <td>Vaksin Influenza</td>
+          <td>
+            <a href="edit-health-report.hbs">
+            <img src="../assets/images/edit logo.png" style="max-height: 20px;"/>
+            </a>
+          </td>
         </tr>
         <tr>
           <td>1 Maret 2025</td>
-          <td>Jansen Yuda</td>
-          <td>175 cm</td>
-          <td>70 kg</td>
-          <td>Sakit Jiwa</td>
+          <td>Mila</td>
+          <td>60 cm</td>
+          <td>7.2 kg</td>
+          <td>Demam, Flu</td>
+          <td>
+            <a href="edit-health-report.hbs">
+            <img src="../assets/images/edit logo.png" style="max-height: 20px;"/>
+            </a>
+          </td>
         </tr>        
         <tr>
           <td>14 Maret 2025</td>
-          <td>Jansen Yuda</td>
-          <td>175 cm</td>
-          <td>80 kg</td>
-          <td>KOIT</td>
+          <td>Mila</td>
+          <td>61 cm</td>
+          <td>7.5 kg</td>
+          <td>Sehat</td>
+          <td>
+            <a href="edit-health-report.hbs">
+            <img src="../assets/images/edit logo.png" style="max-height: 20px;"/>
+            </a>
+          </td>
         </tr>
       </table>
     </section>
